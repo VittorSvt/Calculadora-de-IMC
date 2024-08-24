@@ -15,7 +15,7 @@ form.addEventListener('submit', function (event) {
 
 
     if (BMI < 16.5) {
-        description = "Tome cuidado! Voce está muito abaixo peso"
+        description = "Tome cuidado! Voce está muito abaixo do peso"
         
         // value.classList.add('danger')   
         value.style.color = '#f00'
@@ -23,7 +23,7 @@ form.addEventListener('submit', function (event) {
     
 
     else if (BMI > 16.5 && BMI < 18.5) {
-        description = "Tome cuidado! Voce está abaixo peso"
+        description = "Tome cuidado! Voce está abaixo do peso"
 
         // value.classList.add('attenction')
         value.style.color = '#ff0'
@@ -44,21 +44,21 @@ form.addEventListener('submit', function (event) {
     }
 
     else if (30 < BMI && BMI < 34) {
-        description = "Tome bastante cuidado, voce pode pssuir obesidade grau I"
+        description = "Tome bastante cuidado, voce pode possuir obesidade grau I"
 
         // value.classList.add('danger')
         value.style.color = '#f00'
     }
 
     else if (BMI <= 35 && BMI < 40) {
-        description = "Tome bastante cuidado, voce pode pssuir obesidade grau II"
+        description = "Tome bastante cuidado, voce pode possuir obesidade grau II"
 
         // value.classList.add('danger')
         value.style.color = '#f00'
     }
 
     else {
-        description = "Tome bastante cuidado, voce pode pssuir obesidade grau III"
+        description = "Tome bastante cuidado, voce pode possuir obesidade grau III"
 
         // value.classList.add('danger')
         value.style.color = '#f00'
