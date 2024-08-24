@@ -30,7 +30,7 @@ form.addEventListener('submit', function (event) {
     }
 
     else if (18.5 < BMI && BMI < 25) {
-        description = "Parabnes, voce está no seu peso ideal"
+        description = "Ótimo, voce está no seu peso ideal"
 
         // value.classList.add('normal')
         value.style.color = '#0f0'
