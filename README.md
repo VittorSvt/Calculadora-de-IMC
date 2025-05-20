@@ -39,3 +39,6 @@ Este é um projeto simples de uma Calculadora de IMC (Índice de Massa Corporal)
 - O projeto é totalmente frontend.
 - Pode ser aberto direto no navegador com o arquivo `index.html`.
 
+## testes de mudanças pelo luket
+
+testando 
